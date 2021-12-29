@@ -1,3 +1,25 @@
+# Project setup in google cloud compute engine 
+
+
+# Install and initialize Cloud SDK in local machine
+Cloud SDK is a set of tools that you can use to manage resources and applications hosted on Google Cloud. Download installer and follow instructions outlined here https://cloud.google.com/sdk/docs/install
+
+
+Open a terminal and navigate to the directory containing the new “google-cloud-sdk” directory. Run the following command and follow the on-screen instructions. Hitting enter for all prompts should generally be sufficient.
+
+    ./google-cloud-sdk/install.sh
+
+Initialize the SDK
+
+Open a new terminal and run the command
+
+    gcloud init
+
+Log in when prompted (the login window will pop up in your browser, log in using your Google account). Pick the cloud project to use, using the unique id assigned to the project you created above. 
+
+
+*Cheat sheet*: https://cloud.google.com/sdk/docs/cheatsheet 
+
 # VM-instance setup 
 
 First install Anaconda 
